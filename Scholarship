@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <marquee style="background-color:white">The Redeemed Christian Church Of God ...... Scholarship Exam for any Nigerian University</marquee>
+        <title>RCCG Undergraduates Scholarship</title>
+        <meta charset="UTF-8 ">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0"
+    </head>
+    <body style="background-color: blue">
+      <h1 style="text-align: center;color:white; background-color:red; text-shadow:2px 2px black;border:3px solid white; padding:15px; margin-top:20px">RCCG Undergraduates Scholarships</h1>
+      <form>
+      <fieldset style="background-color: white;border:3px solid red " > 
+         <legend style="background-color:blue; color:white;text-shadow:2px 2px black"><b>Personal Information </b></legend>
+       <label for="fname">First Name:</label>
+         <input type="text" id="fname"><br><br>
+        <label for="lname">Last Name:</label>
+    
+        <input type="text"><br><br>
+        <label for="lname">Other Names:</label>
+    
+        <input type="text"><br><br>
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender">
+        <label for ="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for ="female">Female</label>
+       <center><label for="">Date of Birth</label> </center><br>
+       <label for="day">Day</label>
+       <select id="day">
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+           <option>5</option>
+           <option>6</option>
+           <option>7</option>
+           <option>8</option>
+           <option>9</option>
+           <option>10</option>
+           <option>11</option>
+           <option>12</option>
+           <option>13</option>
+           <option>14</option>
+           <option>15</option>
+           
+           <option>16</option>
+           <option>17</option>
+           <option>18</option>
+           <option>19</option>
+           <option>20</option>
+           <option>21</option>
+           <option>22</option>
+           <option>23</option>
+           <option>24</option>
+           <option>25</option>
+           <option>26</option>
+           <option>27</option>
+           <option>28</option>
+           <option>29</option>
+           <option>30</option>
+           
+           
+       </select>
+       <label for="month"> Month 
+           
+       </label>
+       <select id="month">
+           <option>January</option>
+           <option>February</option>
+           <option>March</option>
+           <option>April</option>
+           <option>May</option>
+           <option>June</option>
+           <option>July</option>
+           <option>August</option>
+           <option>September</option>
+           <option>October</option>
+           <option>November</option>
+           <option>December</option>
+          
+       </select>
+       <label for="year">Year
+           
+         
+       </label>
+       <select>
+           <option>1990</option>
+           <option>1991</option>
+           <option>1992</option>
+           <option>1993</option>
+           <option>1994</option>
+           <option>1995</option>
+           <option>1996</option>
+           <option>1997</option>
+           <option>1998</option>
+           <option>1999</option>
+           <option>2001</option>
+           <option>2002</option>
+           <option>2003</option>
+           <option>2004</option>
+           <option>2005</option>
+           <option>2006</option>
+           <option>2007</option>
+           <option>2008</option>
+           <option>2009</option>
+           <option >2010</option>
+           
+       </select>
+       <label for="phone">Phone number</label>
+       <input  type="tel" max-length="11" size ="11" name="tel">
+       
+         
+      </fieldset>
+      <Br><br><br>
+      
+      
+      <fieldset style="background-color: white;border:3px solid red ">
+          <legend style="background-color:blue; color:white;text-shadow:2px 2px black">
+            School Information 
+          </legend>
+          
+          <label for="university">Name of
+          University:</label>
+          
+          <input type="text"><br><br>
+          <label for="course">Course</label>
+          <input type="text"><br><br>
+          <label for="secondary">Name of secondary school:</label>
+          <input type="text">
+          
+          
+          
+          
+          
+        
+        
+       </fieldset>
+       <br><br><br>
+       <fieldset><
+           <legend>Results</legend>
+           <label >Jamb Score</label>
+           <input type="text"><br>
+           <label>Upload Jamb result</label>
+           <input type ="file"><br>
+           
+           <label> Upload O level Results (gce/waec/neco)</label>
+           <input type="file">
+           
+       </fieldset>
+       <input type="file" ><br><br>
+       
+       <input type="submit" style="float: right;border-radius:20px; background-color: white">
+       
+        </form>
+        
+        
+        
+    </body>
+    
+    
+   
+</html>
