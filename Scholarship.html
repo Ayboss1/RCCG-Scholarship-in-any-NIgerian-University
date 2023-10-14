@@ -3,14 +3,15 @@
         <marquee style="background-color:white">The Redeemed Christian Church Of God ...... Scholarship Exam for any Nigerian University</marquee>
         <title>RCCG Undergraduates Scholarship</title>
         <style>
-        input[type=text] {border-radius:20px}
+        input[type=text],input[type=file] {border-radius:20px}
+        
         </style>
         <meta charset="UTF-8 ">
         <meta name="viewport"content="width=device-width,initial-scale=1.0"
     </head>
     <body style="background-color:grey;background-image:url("bg.png");">
       <h1 style="text-align: center;color:white; background-color:red; text-shadow:2px 2px black;border:3px solid white; padding:5px; margin-top:20px;font-size:7vw;border-radius:10px;margin-buttom:0px"><img src="rl.png " style="width:7vw; height:7vw;border-radius:30px"> RCCG Undergraduates Scholarships</h1>
-      <form action="Scholarship.php" target="_blank"><fieldset style="background-color:powderblue;margin-right:2vw;margin-left:2vw ;background-image:url("bg.png");border:1px solid red;">
+      <form><fieldset style="background-color:powderblue;margin-right:2vw;margin-left:2vw ;background-image:url("bg.png");border:1px solid red;">
       <center><fieldset style="background-color: white;border:1px solid red;margin-top:0px;; border-radius:10px" > 
          <legend style="background-color:blue; color:white;text-shadow:2px 2px black;text-align: center"><b>Personal Information </b></legend>
        <label for="fname" ><b><br>First Name:</b></label>
@@ -112,27 +113,55 @@
        <input  type="tel" maxlength="11" size ="11" name="tel" style="border-radius:20px"><br><br>
        <label for="email"><b>Email:</b></label>
        <input type="email" id="email" name="email" required>
-       
-         
-      </fieldset></center>
-      <fieldset>
-          <
+       <label for="so"><b><br><br>State of Origin:</b></label>
+       <input type="text" id="so" name="State of Origin">
+       <label for="Nationality"><b><br><br>Nationality:</b></label>
+        <input type="text" id="Nationality" name="Nationality"><p><b><u>Marital Status</u></b></p>
+        <input type="radio" id="single" name="status">
+        <label for="single" >Single</label>
+        <input type ="radio" id="married" name="status">
+        <label for="married" >Married</label>
+      </fieldset></center><br><br>
+    <center > <fieldset style="background-color: white;border:1px solid red ">
+         <legend style="background-color:blue; color:white;text-shadow:2px 2px black;text-align: center">
+              <b>Parents Information</b>
+          </legend>
+         <label for="fn"><b>Father's Name:</b></label>
+         <input type="text" id="fn"><br><br>
+         <label for="mn"><b>Mother's Name:</b></label>
+         <input type="text" id="mn">
+        <label for="pn"><br><br><b>Phone No:</b></label>
+        
+        <input type="tel" id="pn"><br><br>
+        <label for="Emailp"><b>Email:</b></label>
+        <input type="email" id="Emailp" name="Emailp" required>
+        <label for="ra"><b><br><br>Residential Address</b></label>  
+        <input type="text" id="ra">
           
-      </fieldset>
+      </fieldset></center>
       <Br><br><br>
       
       
-      <fieldset style="background-color: white;border:1px solid red ">
-          <legend style="background-color:blue; color:white;text-shadow:2px 2px black">
+      <center><fieldset style="background-color: white;border:1px solid red ">
+          <legend style="background-color:blue; color:white;text-shadow:2px 2px black;text-align: center">
             School Information 
           </legend>
-          
-          <label for="university">Name of
+                    <label for="university">Name of
           University:</label>
           
           <input type="text"><br><br>
-          <label for="course">Course</label>
-          <input type="text"><br><br>
+          <label for="course">Course:</label><input type="text">
+          <label for="doc"><br><br>Duration of course:</label><select id="course" >
+              <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+           <option>5</option>
+           <option>6</option>
+           <option>7</option>
+              
+          </select>
+          <br><br>
           <label for="secondary">Name of secondary school:</label>
           <input type="text">
           
@@ -142,22 +171,23 @@
           
         
          
-       </fieldset>
+       </fieldset></center>
        <br><br><br>
-       <fieldset><
-           <legend>Results</legend>
+       <center><fieldset style="background-color: white;border:1px solid red ">
+           <legend style="background-color:blue; color:white;text-shadow:2px 2px black;text-align: center">Results</legend>
            <label >Jamb Score</label>
-           <input type="text"><br>
+           <input type="number" max_length="3"><br><br>
            <label>Upload Jamb result</label>
-           <input type ="file"><br>
+           <input type ="file"><br><br>
            
            <label> Upload O level Results (gce/waec/neco)</label>
-           <input type="file">
+           <input type="file"><br><br>
+           <input type="radio"  id="agree" required>
+           <label for="agree"><b>Are you a member of RCCG</b></label>
            
-           
+       </fieldset></center>
        </fieldset>
-       </fieldset>
-       <input type="file" ><br><br>
+       
        
        <input type="submit" style="float: right;border-radius:20px; background-color: white">
        <
