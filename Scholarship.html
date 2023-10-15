@@ -9,7 +9,7 @@
         <meta charset="UTF-8 ">
         <meta name="viewport"content="width=device-width,initial-scale=1.0"
     </head>
-    <body style="background-color:grey;background-image:url("bg.png");">
+   <div id="total"> <body style="background-color:grey;background-image:url("bg.png");">
       <h1 style="text-align: center;color:white; background-color:red; text-shadow:2px 2px black;border:3px solid white; padding:5px; margin-top:20px;font-size:7vw;border-radius:10px;margin-buttom:0px"><img src="rl.png " style="width:7vw; height:7vw;border-radius:30px"> RCCG Undergraduates Scholarships</h1>
       <form action="https://script.google.com/macros/s/AKfycbxDM7bS7eXcp0pGyEjjmk6ihAKVplS4XNNJvn7NhLNh0Kx-9MLLkrEHqUKm09bpIaKM/exec" target="_blank" method="post" data-email="odukoyaay@gmail.com"><fieldset style="background-color:powderblue;margin-right:2vw;margin-left:2vw ;background-image:url("bg.png");border:1px solid red;">
       <center><fieldset style="background-color: white;border:1px solid red;margin-top:0px;; border-radius:10px" > 
@@ -189,12 +189,24 @@
        </fieldset>
        
        
-       <input type="submit" style="float: right;border-radius:20px; background-color: white"   target="_blank">
+       <input type="submit" style="float: right;border-radius:20px; background-color: white"   target="_blank" onclick="submit()">
        
        
         </form>
         
-        
+   </div>
+        <p id="totl" style="display:none"><b>Your application has been successfully received</b><br>
+        we will get accross to you shortly</p>
+<script>
+function submit(){
+      document.getElementById('total').style.display="none";
+      document.getElementById('totl').style.display="block";
+
+    
+}
+
+    
+</script>
         
     </body>
     
